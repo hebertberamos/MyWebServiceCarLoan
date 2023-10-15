@@ -1,8 +1,43 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div style="display: flex; flex-direction: column;">
+    <div class="card text-center">
+        <div class="card-header">
+            Modo de entrada
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Entrar como cliente</h5>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <ul style="width: 100%; max-width: 500px">
+                    <li style="text-align: left;">Pode realizar um novo emprestimo para si</li>
+                    <li style="text-align: left;">Informações a respeito da sua conta</li>
+                    <li style="text-align: left;">Informações a respeito do seu emprestimo</li>
+                </ul>
+            </div>
+            <a href="#" class="btn btn-primary">Entrar como cliente</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+            Cliente
+        </div>
+    </div>
+    <div class="card text-center" style="margin-top: 25px;">
+        <div class="card-header">
+            Modo de entrada
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Entrar como colaborador da empresa</h5>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <ul style="width: 100%; max-width: 500px">
+                    <li style="text-align: left;">Realização de novo empréstimo para qualquer cliente</li>
+                    <li style="text-align: left;">Informações a respeito dos clientes</li>
+                    <li style="text-align: left;">Informações a respeito de todos os emprestmos que já aconteceram e que estão acontecendo</li>
+                </ul>
+            </div>
+            <a href="#" class="btn btn-primary">Entrar como admin</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+            Admin
+        </div>
+    </div>
 </div>
